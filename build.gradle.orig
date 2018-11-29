@@ -13,8 +13,11 @@ allprojects {
     }
 }
 
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> de0ebfe4... fix build on the master branch
 subprojects {
   /* the Java plugin adds several tasks like clean, assemble, 
   build, etc, which make it easy to work with the build process when we follow conventions such as src/main/java and src/main/test as main folders*/
@@ -32,5 +35,7 @@ subprojects {
 }
 
 
-
+ext {
+    JplLibraryPath = "/usr/lib/x86_64-linux-gnu/jni/"
+}
 
